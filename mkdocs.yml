@@ -1,4 +1,7 @@
-site_name: My Docs
+site_name: AAU docs
+nav:
+    - Home: index.md
+    - About: about.md
 theme:
   name: material
 
