@@ -26,7 +26,7 @@ CLAAUDIA Compute Cloud Strato is a compute cloud hosted at AAU. The cloud is bas
 | mem.large      | Memory focused  | 16       | 128GB   | 100GB|
 | gpu.t4-large   | Nvidia T4 GPU   | 10       | 40GB    | 100GB|
 
-We recommend that you start with one of the smaller instances, and then [resize](openstack_guides/resize.md) your instance later if needed. Similar, if you need more space you add [**additional storage**](openstack_guides/attach_volume.md).
+We recommend that you start with one of the smaller instances, and then [resize](**openstack_guides/resize.md**) your instance later if needed. Similar, if you need more space you add [**additional storage**](openstack_guides/attach_volume.md).
 
 When you start you will receive the following quota (theres more, but likely the most important):
 
@@ -53,15 +53,15 @@ In Strato, a range of different pre-built images will be available. For now, we 
 
 | Image Name                         |  Version                        | Use case                      |Guide|
 |    ---                             | ---                            | ---                           | --- |
-| Ubuntu 18.04 Bionic Beaver         | 18.04 LTS Cloud                | Base-ubuntu-image for the user to build upon.        | [Ubuntu cloud](image-guides/ubuntu.md) |
-| Ubuntu 20.04 Focal Fossa           | 20.04 LTS Cloud                | Base-ubuntu-image for the user to build upon.        | [Ubuntu cloud](image-guides/ubuntu.md) |
+| Ubuntu 18.04 Bionic Beaver         | 18.04 LTS Cloud                | Base-ubuntu-image for the user to build upon.        | [**Ubuntu cloud**](image-guides/ubuntu.md) |
+| Ubuntu 20.04 Focal Fossa           | 20.04 LTS Cloud                | Base-ubuntu-image for the user to build upon.        | [**Ubuntu cloud**](image-guides/ubuntu.md) |
 
-To get a GPU working using the flavor gpu.t4-large, you can follow [this guide](image-guides/ubuntu.md#installing-gpu-support)
+To get a GPU working using the flavor gpu.t4-large, you can follow [**this guide**](image-guides/ubuntu.md#installing-gpu-support)
 
 ## Custom images
 In addition to the pre-built Ubuntu images, we provide some instructions here for installing requested software in the pre-built images, until we can offer more pre-built images with that software installed.
 
-- [MATLAB](image-guides/matlab.md)
+- [**MATLAB**](image-guides/matlab.md)
 
 ## Cloud guides
 Learn about more advanced Openstack features E.g. deleting instances, releasing IPs or using the openstack CLI.
@@ -88,4 +88,4 @@ To support as many as possible we have created a [Yammer Compute Cloud Group](ht
 
 ## Support
 
-Direct support is also possible. Please ask your question by submitting an email to support@its.aau.dk
+Direct support is also possible. Please ask your question by submitting an email to [support@its.aau.dk](mailto:support@its.aau.dk)

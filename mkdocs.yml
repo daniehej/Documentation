@@ -1,7 +1,6 @@
-site_name: AAU docs
+site_name: Strato user documentation
 nav:
   - Home: index.md
-  - About: about.md
   - Guides:
     - "Overview": guides/overview.md
     - "Matlab": 
@@ -13,6 +12,7 @@ nav:
   - test:
     - "Scary Coaster": test/test.md
     - "Drop of Doom": test/test.md
+  - About: about.md
 
 theme:
   name: material
@@ -21,7 +21,7 @@ theme:
     - navigation.tabs
     - navigation.instant
     - toc.integrate
-    - header.autohide
+    #- header.autohide
 
   logo: assets/logo_round.png
   favicon: assets/favicon.ico
