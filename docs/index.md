@@ -1,4 +1,4 @@
-![Alt Description](assets/logo.png "Title")
+![logo](assets/img/claaudia-logo.png"Title")
 
 # User documentation - CLAAUDIA *New* Compute Cloud Strato
 
@@ -26,7 +26,7 @@ CLAAUDIA Compute Cloud Strato is a compute cloud hosted at AAU. The cloud is bas
 | mem.large      | Memory focused  | 16       | 128GB   | 100GB|
 | gpu.t4-large   | Nvidia T4 GPU   | 10       | 40GB    | 100GB|
 
-We recommend that you start with one of the smaller instances, and then [resize](**openstack_guides/resize.md**) your instance later if needed. Similar, if you need more space you add [**additional storage**](openstack_guides/attach_volume.md).
+We recommend that you start with one of the smaller instances, and then [**resize**](guides/openstack_guides/resize.md) your instance later if needed. Similar, if you need more space you add [**additional storage**](guides/openstack_guides/attach_volume.md).
 
 When you start you will receive the following quota (theres more, but likely the most important):
 
@@ -44,7 +44,7 @@ This quota will not allow you to create some of the larger instances in strato-n
 ## Quick-start - Your first instance
 Follow the guide to get your first Ubuntu instance up and running in minutes! The guide will take you through the steps of logging in to the cloud, setting up an Ubuntu instance and accessing the instance with SSH.
 
-[**Quick-start - Your first instance**](quick-start.md)
+[**Quick-start - Your first instance**](guides/quick-start.md)
 
 ## Prebuilt image documentation
 In Strato, a range of different pre-built images will be available. For now, we only have two images:
@@ -67,17 +67,16 @@ In addition to the pre-built Ubuntu images, we provide some instructions here fo
 Learn about more advanced Openstack features E.g. deleting instances, releasing IPs or using the openstack CLI.
 
 - [**CLAAUDIA Compute Cloud Strato glossary**](cloud_glossary.md)
-- [Openstack CLI](openstack_guides/openstack_CLI.md)
-- [Stop, pause & delete instances](openstack_guides/Pause_shutdown_delete_instances.md)
-- [Custom volume size](openstack_guides/diffrent_volume_size.md)
-- [Custom security groups](openstack_guides/Access_to_instance.md)
-- [Save instances as image](openstack_guides/save_image.md)
-- [Using putty](openstack_guides/putty.md)
-- [Using Windows Command Prompt](openstack_guides/wcmd.md)
-- [Attaching a volume for additional storage](openstack_guides/attach_volume.md)
-- [Resizing an instance](openstack_guides/resize.md)
-- [Running long simulations](openstack_guides/running_simulations.md)
-- [Remote desktop using X2Go and Xfce](openstack_guides/remote_desktop_xfce.md)
+- [**Openstack CLI **](guides/openstack_guides/openstack_CLI.md)
+- [**Stop, pause & delete instances**](guides/openstack_guides/Pause_shutdown_delete_instances.md)
+- [**Custom volume size**](guides/openstack_guides/diffrent_volume_size.md)
+- [**Custom security groups**](guides/openstack_guides/Access_to_instance.md)
+- [**Save instances as image**](guides/openstack_guides/save_image.md)
+- [**Using Windows Command Prompt**](guides/openstack_guides/wcmd.md)
+- [**Attaching a volume for additional storage**](guides/openstack_guides/attach_volume.md)
+- [**Resizing an instance**](guides/openstack_guides/resize.md)
+- [**Running long simulations**](guides/openstack_guides/running_simulations.md)
+- [**Remote desktop using X2Go and Xfce**](guides/openstack_guides/remote_desktop_xfce.md)
 
 ## Discussion Forum
 
