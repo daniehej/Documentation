@@ -1,5 +1,3 @@
-![Alt Description](../img/logo.png?raw=true "Title")
-
 # Command line interface (CLI) access
 
 For advanced users it is possible to manage the cloud instances from the command line interface.
@@ -31,7 +29,7 @@ From a internet browser, login to [openstack wayf auth](https://strato.claaudia.
 How to find the **Response Headers** varies from browser to browser. To find the **Response Headers** checkout this guide <https://www.dev2qa.com/how-to-view-http-headers-cookies-in-google-chrome-firefox-internet-explorer/> which covers the most common browsers.
 
 
-![Alt Description](../img/openstack/x-token.gif?raw=true "Title")
+![x-token](../../assets/img/openstack/x-token.gif"Title")
 
 
 

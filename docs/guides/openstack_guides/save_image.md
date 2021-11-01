@@ -1,6 +1,3 @@
-![Alt Description](../img/logo.png?raw=true "Title")
-
-
 # Save as image
 There are plenty reasons why you would save your instance as an image. It could be for a back-up to a known state, to distribute an environment etc.
 

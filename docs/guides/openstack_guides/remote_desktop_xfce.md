@@ -25,8 +25,8 @@ Install a [X2Go client on your computer](https://wiki.x2go.org/doku.php/doc:inst
 
 
 Example:
-![x2go client](../img/x2go_xfce/x2go_client.png)
+![x2go client](../../assets/img/x2go_xfce/x2go_client.png)
 
 You should then be able to login:
-![Xfce interface](../img/x2go_xfce/xfce_instance.png)
+![Xfce interface](../../assets/img/x2go_xfce/xfce_instance.png)
 

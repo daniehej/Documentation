@@ -1,5 +1,3 @@
-![Alt Description](../img/logo.png?raw=true "Title")
-
 # Custom volume size
 When you create a new instance, it will inherit the volume size from the flavour (1TB). To create a custom volume the user must first create a volume and then launch this volume as an instance.
 
@@ -13,4 +11,4 @@ When you create a new instance, it will inherit the volume size from the flavour
 8. Select **Boot source Volume**.
 9. Select flavour and launch instance
 
-![Alt Description](../img/openstack/diffrent_volume_size.gif?raw=true)
+![diffrent_volume_size.gif](../../assets/img/openstack/diffrent_volume_size.gif)

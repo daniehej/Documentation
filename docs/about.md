@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# ABOUT CLAAUDIA - RESEARCH DATA SERVICES
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+CLAAUDIA is an infrastructure (i.e. an organizational team and line of virtual services) that is a strategic venture realizing vital parts of the digitalisation strategy for the university. The strategy was adopted in January 2018.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The overall aim of the infrastructure is to assist researchers and management in achieving the university's research goals by ensuring availability, utilization, and guidance in the use of modern state-of-the-art research infrastructure, support and advice, training and communication, coordination and policies.
+The deliverables of the project are also intended for availablity to students and can be used in the digital support of PBL.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+We have put together highly skilled staff from IT Services and the University Library, who work in close collaboration with the research teams and management at AAU. The project is governed by a steering group headed by Kåre Lehmann Nielsen, professor with special responsiblities.

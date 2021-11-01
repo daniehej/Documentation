@@ -1,5 +1,3 @@
-![Alt Description](https://git.its.aau.dk/CLAAUDIA/docs_openstack/raw/branch/master/img/logo.png)
-
 # CLAAUDIA Compute Cloud Strato glossary.
 
 

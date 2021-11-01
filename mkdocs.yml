@@ -4,15 +4,16 @@ nav:
   - "Quick start": guides/quick-start.md
 
   - "Image Guides":
-    - guides/Image-guides/overview.md
-    #- "Overview": guides/Image-guides/overview.md
+    - guides/Image-guides/index.md
     - "Ubuntu":
-      - "Ubuntu 18.04": guides/Image-guides/ubuntu_18-04.md
-      - "Ubuntu 20.04": guides/Image-guides/ubuntu_20-04.md
-    - "CLI": guides/Image-guides/comsol.md
+      - "Ubuntu 18.04": guides/Image-guides/ubuntu/ubuntu_18-04.md
+      - "Ubuntu 20.04": guides/Image-guides/ubuntu/ubuntu_20-04.md
+    - "Matlab":
+      - "Matlab 2019b": guides/Image-guides/matlab/matlab.md
 
 
   - "OpenStack Guides":
+    - guides/openstack_guides/index.md
     - "CLI": guides/openstack_guides/openstack_CLI.md
     - "Stop, pause & delete instances": guides/openstack_guides/Pause_shutdown_delete_instances.md
     - "Custom volume size": guides/openstack_guides/diffrent_volume_size.md

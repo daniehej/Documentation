@@ -1,5 +1,3 @@
-![Alt Description](../img/logo.png?raw=true "Title")
-
 # Pause, shutdown and delete instances
 Instances in the Strato CLAAUDIA Compute cloud can have a range of **States:**
 - **Active:** Instance is active, you can connect to it.
@@ -32,7 +30,7 @@ To shutdown an instance using the Horizon web interface you must be logged in an
 3. Click on **Instances**.
 4. Mark the checkbox of the instance you wish to shut down.
 5. Press **More Actions** on the right side of the webpage, and select **Shut Off Instance** from the dropdown.
-![Alt Description](../img/openstack/Shutdown_instance.gif?raw=true)
+![Shutdown_instance.gif](../../assets/img/openstack/Shutdown_instance.gif)
 
 ## Delete an instance
 
@@ -45,6 +43,6 @@ To delete an instance using the Horizon web interface you must be logged in. For
 5. Press **Delete Instances** on the right side of the webpage.
 6. Press **Delete Instances** in the confirmation dialog.
 
-![Alt Description](../img/openstack/delete_instance.gif?raw=true)
+![delete_instance.gif](../../assets/img/openstack/delete_instance.gif)
 
 Deleting an instance will not delete the attached volume, unless specifically set to during creation.
