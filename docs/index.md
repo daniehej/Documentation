@@ -61,7 +61,7 @@ To get a GPU working using the flavor gpu.t4-large, you can follow [**this guide
 ## Custom images
 In addition to the pre-built Ubuntu images, we provide some instructions here for installing requested software in the pre-built images, until we can offer more pre-built images with that software installed.
 
-- [**MATLAB**](guides/Image-guides/matlab/matlab/.md)
+- [**MATLAB**](guides/Image-guides/matlab/matlab.md)
 
 ## Cloud guides
 Learn about more advanced Openstack features E.g. deleting instances, releasing IPs or using the openstack CLI.
