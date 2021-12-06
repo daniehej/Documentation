@@ -16,7 +16,7 @@ CLAAUDIA Compute Cloud Strato is a compute cloud hosted at AAU. The cloud is bas
 |    ---         |  ---            |  ---     | ---     | ---  |
 | gp.small       | General purpose | 4        | 16GB    | 100GB|
 | gp.medium      | General purpose | 8        | 32GB    | 100GB|
-| gp.large       | General purpose | 16       | 65GB    | 100GB| 
+| gp.large       | General purpose | 16       | 64GB    | 100GB| 
 | cpu.small      | CPU focused     | 8        | 16GB    | 100GB|
 | cpu.medium     | CPU focused     | 16       | 32GB    | 100GB|
 | cpu.large      | CPU focused     | 32       | 64GB    | 100GB|
