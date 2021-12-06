@@ -1,3 +1,2 @@
 # Documentation
- Documentation
-https://www.strato-docs.claaudia.aau.dk/
+ Documentation: https://www.strato-docs.claaudia.aau.dk/
