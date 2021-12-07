@@ -5,9 +5,8 @@
 Hello and welcome to the documentation for the CLAAUDIA Cloud. The documentation is targeted at our Strato project. To get valuable feedback from the strato phase CLAAUDIA expects the following of the users
 
 * You must **not** use AAU sensitive or GDPR restricted data for now
-* Syslog from instances will be sent to ITS logging system.
 * There will **NOT** be made backup of the data you upload to the cloud, so do not delete your own copy. The data is safe in the cloud, as the storage system replicates it. There is just no additional backup, so if you by accident delete it from the cloud, it will be gone, and needs to be re-uploaded.
-* You will have **full onwership** of the instance you create and can therefore install additional software, tweak it or use it as is.
+* You will have **full ownership** of the instance you create and can therefore install additional software, tweak it or use it as is.
 
 ## What is CLAAUDIA Compute Cloud Strato
 CLAAUDIA Compute Cloud Strato is a compute cloud hosted at AAU. The cloud is based on OpenStack. A user can launch multiple instances based on different flavors and images. The flavour is the computing resource and the image is the OS+software.
