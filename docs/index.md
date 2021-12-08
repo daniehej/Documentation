@@ -66,6 +66,7 @@ In addition to the pre-built Ubuntu images, we provide some instructions here fo
 Learn about more advanced Openstack features E.g. deleting instances, releasing IPs or using the openstack CLI.
 
 - [**CLAAUDIA Compute Cloud Strato glossary**](cloud_glossary.md)
+- [**Copy data from the old strato to new strato**](guides/openstack_guides/Move_To_strato.md)
 - [**Openstack CLI **](guides/openstack_guides/openstack_CLI.md)
 - [**Stop, pause & delete instances**](guides/openstack_guides/Pause_shutdown_delete_instances.md)
 - [**Custom volume size**](guides/openstack_guides/diffrent_volume_size.md)
