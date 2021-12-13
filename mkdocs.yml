@@ -10,6 +10,8 @@ nav:
       - "Ubuntu 20.04": guides/Image-guides/ubuntu/ubuntu_20-04.md
     - "Matlab":
       - "Matlab 2019b": guides/Image-guides/matlab/matlab.md
+    - "Anaconda":
+      - "Anaconda3": guides/Image-guides/anaconda/anaconda.md
 
 
   - "OpenStack Guides":
