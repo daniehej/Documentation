@@ -20,7 +20,7 @@ mkdir vol1
 ```bash
 ﻿sudo mount /dev/vdb ~/vol1
 ```
-7. Verify everything:
+7. Verify the storage exists:
 ```bash
 $ df -h
 Filesystem      Size  Used Avail Use% Mounted on
@@ -29,3 +29,7 @@ udev            7.9G     0  7.9G   0% /dev
 /dev/vdb        976M  2.6M  907M   1% /home/ubuntu/vol1
 ```
 
+8. Update owner from root to ubuntu user
+```bash
+sudo chown ubuntu ~/vol1
+```
