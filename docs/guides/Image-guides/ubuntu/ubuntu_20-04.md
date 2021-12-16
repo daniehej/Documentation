@@ -6,7 +6,7 @@ The default username is **ubuntu** for the 20.04 LTS image. Use a key-pair appli
 ssh ubuntu@10.92.0.xx -i yourPersonalKey.pem
 ```
 
-![SSH](../../assets/img/openstack/ssh_instance.gif "Title")
+![SSH](../../../assets/img/openstack/ssh_instance.gif "Title")
 
 rbd rm bio-pilot/a1024-gc1-e-01-fsck --cluster claaudia-c1
 ## Installing GPU support
