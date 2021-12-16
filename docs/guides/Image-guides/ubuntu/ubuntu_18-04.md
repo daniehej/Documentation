@@ -5,7 +5,7 @@ The default username is **ubuntu** for the Ubuntu 18.04 LTS image. Use a key-pai
 ``` bash
 ssh ubuntu@10.92.0.xx -i yourPersonalKey.pem
 ```
-![SSH](../../assets/img/openstack/ssh_instance.gif "Title")
+![SSH](../../../assets/img/openstack/ssh_instance.gif "Title")
 
 
 ## Installing GPU support
