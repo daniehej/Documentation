@@ -62,6 +62,7 @@ In the **launch instance** menu you can set settings for the instance. To launch
 
 - **source** Choose the Ubuntu 18.04 image. 
 - **flavour** Apply the m1.medium compute resource for a small first instance.
+- **networks** Select Campus Network 01. If you are interested in having an instance that is globally accessible for e.g. hosting a webservice, copying data from another university etc., and hence also at a higher security risk, then select AAU Public.
 - **security groups** Ensure that the default security group we edited earlier is applied (should be as default). 
 - **key-pair** Ensure that the key-pair created earlier is applied (should be as default).
 
