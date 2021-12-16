@@ -12,7 +12,8 @@ nav:
       - "Matlab 2019b": guides/Image-guides/matlab/matlab.md
     - "Anaconda":
       - "Anaconda3": guides/Image-guides/anaconda/anaconda.md
-
+    - "The littlest jupyterhub":
+      - "The littlest jupyterhub": guides/Image-guides/the-littlest-jupyterhub/the-littlest-jupyterhub.md
 
   - "OpenStack Guides":
     - guides/openstack_guides/index.md
