@@ -25,7 +25,7 @@ pip install python-openstackclient
 
 ## Get token
 
-From a internet browser, login to [openstack wayf auth](https://strato.claaudia.aau.dk:5000/v3/OS-FEDERATION/identity_providers/WAYF/protocols/saml2/auth) and inspect the **Response Headers** and find the **X-Subject-Token**.
+From a internet browser, login to [openstack wayf auth](https://strato-new.claaudia.aau.dk:5000/v3/OS-FEDERATION/identity_providers/WAYF/protocols/saml2/auth) and inspect the **Response Headers** and find the **X-Subject-Token**.
 How to find the **Response Headers** varies from browser to browser. To find the **Response Headers** checkout this guide <https://www.dev2qa.com/how-to-view-http-headers-cookies-in-google-chrome-firefox-internet-explorer/> which covers the most common browsers.
 
 
@@ -33,15 +33,15 @@ How to find the **Response Headers** varies from browser to browser. To find the
 
 
 
- Once you have found the **X-Subject-Token** start a terminal, and export the following variables:
+ Once you have found the **X-Subject-Token**. Login to [strato-new](strato-new.claaudia.aau.dk) as normal. In the upper right corner, click your name, and then "OpenStack RC File". Here you need to locate a few values. Start a terminal, and export the following variables:
 
  ```bash
- export OS_AUTH_TYPE=token
- export OS_IDENTITY_API_VERSION=3
- export OS_TOKEN=<value of **X-Subject-Token**>
- export OS_AUTH_URL=https://strato.claaudia.aau.dk:5000/v3
- export OS_PROJECT_DOMAIN_NAME=294d032992a04094a710d69282d71e03 # Id for WAYF Domain in OpenStack
- export OS_PROJECT_NAME=<Your AAUID>
+export OS_AUTH_TYPE=token
+export OS_IDENTITY_API_VERSION=3
+export OS_AUTH_URL=https://strato-new.claaudia.aau.dk:5000
+export OS_PROJECT_ID=<project ID as given in the OpenStack RC File>
+export OS_PROJECT_NAME=<your name as given in the Openstack RC File>
+export OS_TOKEN=<value of **X-Subject-Token**>
  ```
 **AAU ID is not your e-mail**
 
@@ -49,7 +49,7 @@ Now we are ready to issue a token for CLI access:
 
 ```bash
 openstack token issue
-#If the above commad successed something like the following will be printed in the terminal.
+#If the above command succeeded something like the following will be printed in the terminal.
 +------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Field      | Value                                                                                                                                                                                                        |
 +------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
