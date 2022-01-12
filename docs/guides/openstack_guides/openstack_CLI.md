@@ -44,7 +44,7 @@ export OS_PROJECT_NAME=<your name as given in the Openstack RC File>
 export OS_TOKEN=<value of **X-Subject-Token**>
 ```
 
-Now we are ready to issue a token for CLI access:
+Now we can test our setup and token
 
 ```bash
 openstack token issue
