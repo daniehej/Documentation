@@ -25,7 +25,7 @@ pip install python-openstackclient
 
 ## Get token
 
-From a internet browser, login to [openstack wayf auth](https://strato-new.claaudia.aau.dk:5000/v3/OS-FEDERATION/identity_providers/WAYF/protocols/saml2/auth) and inspect the **Response Headers** and find the **X-Subject-Token**.
+From a internet browser, [login to openstack wayf auth](https://strato-new.claaudia.aau.dk:5000/v3/OS-FEDERATION/identity_providers/WAYF/protocols/saml2/auth) and inspect the **Response Headers** and find the **X-Subject-Token**.
 How to find the **Response Headers** varies from browser to browser. To find the **Response Headers** checkout this guide <https://www.dev2qa.com/how-to-view-http-headers-cookies-in-google-chrome-firefox-internet-explorer/> which covers the most common browsers.
 
 
@@ -35,14 +35,14 @@ How to find the **Response Headers** varies from browser to browser. To find the
 
  Once you have found the **X-Subject-Token**. Login to [strato-new](strato-new.claaudia.aau.dk) as normal. In the upper right corner, click your name, and then "OpenStack RC File". Here you need to locate a few values. Start a terminal, and export the following variables:
 
- ```bash
+```bash
 export OS_AUTH_TYPE=token
 export OS_IDENTITY_API_VERSION=3
 export OS_AUTH_URL=https://strato-new.claaudia.aau.dk:5000
 export OS_PROJECT_ID=<project ID as given in the OpenStack RC File>
 export OS_PROJECT_NAME=<your name as given in the Openstack RC File>
 export OS_TOKEN=<value of **X-Subject-Token**>
- ```
+```
 **AAU ID is not your e-mail**
 
 Now we are ready to issue a token for CLI access:
@@ -50,14 +50,14 @@ Now we are ready to issue a token for CLI access:
 ```bash
 openstack token issue
 #If the above command succeeded something like the following will be printed in the terminal.
-+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Field      | Value                                                                                                                                                                                                        |
-+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| expires    | 2019-09-27T10:57:15+0000                                                                                                                                                                                     |
-| id         | gAAAAABdjUJLROO-kpooVC5mj_APPcsJqVOexpWBpYZR-CZUyNXFdTzZdSMPsjutjd8cgfcEavUVgXOqV7TYNQcqrGZpBezPh0Y8P_R-RJzSQe8Y0rdbsg0d1p9t6Yw7i86B9O_S7rk43dcgpeE95UiflJmUjxz0LvSkiUE0hfg49I-_N7ONnxAIvCzWj0xtF_gvZLkB5MmD |
-| project_id | 7593173a8a7b4f9d8519ec55a50b1697                                                                                                                                                                             |
-| user_id    | 66c24eb8938745aa9230f38915322dda                                                                                                                                                                             |
-+------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Field      | Value                                                                                                                                                                                                                                                                        |
++------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| expires    | 2022-01-12T19:40:48+0000                                                                                                                                                                                                                                                     |
+| id         | gAAAAABh3oYAEVjv1ckeX_TAYjgVC2Yx6tsUp8uQ4qKY_dZ85XGMHfD7BFF85zWHwsnXminzNHyRdDtF1L3prp-z923Rpl8QDasVyazWo20t443u8Ld075haW8MPjmD0bKOIog2DCwLXqFPjNxAwzcxckAyLNV8XmBlKTkUqVlR79gChVZ9bffCAseY0-13ZTcq0K4g-IFazt4WkufYhfZ8umICqIV31GsT6awltlg_fUX-WL0trQMLdcuUoXQxBTSoGAmgP453I |
+| project_id | 19d0e041fb364580abc26539180dd0e1                                                                                                                                                                                                                                             |
+| user_id    | a42a435578323b3d7edd853e98fc643cbb4dd82ef8d5160c30be720f218b121f                                                                                                                                                                                                             |
++------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ```
 
 Now you should have access to OpenStack via the CLI. To test this execute:
