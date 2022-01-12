@@ -43,7 +43,6 @@ export OS_PROJECT_ID=<project ID as given in the OpenStack RC File>
 export OS_PROJECT_NAME=<your name as given in the Openstack RC File>
 export OS_TOKEN=<value of **X-Subject-Token**>
 ```
-**AAU ID is not your e-mail**
 
 Now we are ready to issue a token for CLI access:
 
