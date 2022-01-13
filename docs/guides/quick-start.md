@@ -99,9 +99,18 @@ and then try to connect again.
 Move the SSH key to the ".ssh" folder located in the home directory, for example 'C:\User\adf\.ssh' to set the right permissioins
 and then try to connect again.
 
-## Clean up instance
+## Shelve instance
+If you dont need the instance, you can shelve the instance. Then others can use the HW such that we can get a good overall utilization of the platform. You can then unshelve when you need to work on the instance.
 
-To delete an instance using the Horizon web interface you must be logged in. For an instance to be deleted, it must first be [Shut off](#shutdown-an-instance). Navigate to the **launch instance** menu using the horizon web interface.
+1. Navigate to the project tab
+2. Click the **Compute** sub-tab
+3. Click on **Instances**
+4. Find the instance and the Action roll down.
+5. Select "Shelve instance". After a bit of time, the Status should be "Shelved Offloaded"
+6. When you need the instance again - select "Unshelve instance" under the Actions roll-down.
+
+## Clean up instance
+If you are done using your instance, then you can delete it.
 
 1. Navigate to the project tab
 2. Click the **Compute** sub-tab
@@ -112,4 +121,4 @@ To delete an instance using the Horizon web interface you must be logged in. For
 
 ![Alt Description](../assets/img/openstack/delete_instance.gif)
 
-If you wish to keep the instance, instead of deleting it you can shelve it.
+If you wish to keep the instance, instead of deleting it you can shelve it. See the description above.
