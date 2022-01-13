@@ -10,7 +10,7 @@ Follow four steps to setup your first cloud instance and shelve, delete ot creat
    1. [Login to the Cloud](#login-to-the-cloud) 
    2. [Setup Ubuntu cloud instance](#setup-an-ubuntu-cloud-instance)
    3. [Access the instance](#access-the-instance)
-   4. [Shelve or delete and image](#shelve-or-delete-an-image)
+   4. [Shelve or delete an image](#shelve-or-delete-an-image)
 
 
 ## Login to the Cloud
