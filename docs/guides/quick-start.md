@@ -113,16 +113,3 @@ To delete an instance using the Horizon web interface you must be logged in. For
 ![Alt Description](../assets/img/openstack/delete_instance.gif)
 
 If you wish to keep the instance, instead of deleting it you can shelve it.
-
-=== "Unordered list"
-
-    * Sed sagittis eleifend rutrum
-    * Donec vitae suscipit est
-    * Nulla tempor lobortis orci
-
-=== "Ordered list"
-
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci
-
