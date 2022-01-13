@@ -10,7 +10,7 @@ Follow four steps to setup your first cloud instance and shelve, delete ot creat
    1. [Login to the Cloud](#login-to-the-cloud) 
    2. [Setup Ubuntu cloud instance](#setup-an-ubuntu-cloud-instance)
    3. [Access the instance](#access-the-instance)
-   4. [Delete, Shelve or to image](#delete-shelve-or-to-image)
+   4. [Shelve or delete and image](#shelve-or-delete-an-image)
 
 
 ## Login to the Cloud
@@ -99,8 +99,9 @@ and then try to connect again.
 Move the SSH key to the ".ssh" folder located in the home directory, for example 'C:\User\adf\.ssh' to set the right permissioins
 and then try to connect again.
 
-## Shelve instance
-If you dont need the instance, you can shelve the instance. Then others can use the HW such that we can get a good overall utilization of the platform. You can then unshelve when you need to work on the instance.
+## Shelve or delete an image
+
+If you dont need the instance right now, but maybe sometime soon again, you can shelve the instance. Then others can use the HW in the meantime such that we can get a good overall utilization of the platform. You can then unshelve when you need to work on the instance.
 
 1. Navigate to the project tab
 2. Click the **Compute** sub-tab
@@ -109,7 +110,6 @@ If you dont need the instance, you can shelve the instance. Then others can use 
 5. Select "Shelve instance". After a bit of time, the Status should be "Shelved Offloaded"
 6. When you need the instance again - select "Unshelve instance" under the Actions roll-down.
 
-## Clean up instance
 If you are done using your instance, then you can delete it.
 
 1. Navigate to the project tab
