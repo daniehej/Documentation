@@ -120,5 +120,3 @@ If you are done using your instance, then you can delete it.
 6. press **Delete Instances** in the confirmation dialog.
 
 ![Alt Description](../assets/img/openstack/delete_instance.gif)
-
-If you wish to keep the instance, instead of deleting it you can shelve it. See the description above.

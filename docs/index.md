@@ -8,6 +8,10 @@ Hello and welcome to the documentation for the CLAAUDIA Cloud. The documentation
 * There will **NOT** be made backup of the data you upload to the cloud, so do not delete your own copy. The data is safe in the cloud, as the storage system replicates it. There is just no additional backup, so if you by accident delete it from the cloud, it will be gone, and needs to be re-uploaded.
 * You will have **full ownership** of the instance you create and can therefore install additional software, tweak it or use it as is.
 
+## Important difference from *old* strato
+
+* You can not (and should) not create floating IPs. You can choose either to a have a local routed IP (preferred) or a globally routed IP.
+
 ## What is CLAAUDIA Compute Cloud Strato
 CLAAUDIA Compute Cloud Strato is a compute cloud hosted at AAU. The cloud is based on OpenStack. A user can launch multiple instances based on different flavors and images. The flavour is the computing resource and the image is the OS+software.
 
