@@ -1,10 +1,10 @@
 ![logo](../assets/img/claaudia-logo.png "Title")
 # CLAAUDIA Compute Cloud Strato - Quick start
-Follow four steps to setup your first cloud instance and shelve, delete ot create an image when you're done. We will launch an instance with a m1.medium flavour(2 vCPUs, 4GB RAM and 40GB storage) based on the Ubuntu 18.04 image (Ubuntu 18.04 LTS + AAU specific setup) and connect to it with SSH (you will need to be located at AAU or use e.g. [VPN](https://www.en.its.aau.dk/instructions/VPN)).
+Follow four steps to setup your first cloud instance and shelve, delete ot create an image when you're done. We will launch an instance with a gp.small flavour(2 vCPUs, 4GB RAM and 40GB storage) based on the Ubuntu 18.04 image (Ubuntu 18.04 LTS + AAU specific setup) and connect to it with SSH (you will need to be located at AAU or use e.g. [VPN](https://www.en.its.aau.dk/instructions/VPN)).
 
 | **Image**                                             |**Compute Resources**|**Accessible**     |
 |-------------------------------------------------------|---------------------|-------------------|
-| [**Ubuntu 18.04 image**](guides/image-guides/ubuntu)| m1.medium           | From the internet |
+| [**Ubuntu 18.04 image**](guides/image-guides/ubuntu)| gp.small           | From the internet |
 
     
    1. [Login to the Cloud](#login-to-the-cloud) 
@@ -60,8 +60,8 @@ To launch the Ubuntu instance navigate to the "launch instance" menu using the w
 
 In the **launch instance** menu you can set settings for the instance. To launch your first ubuntu instance the following menu's settings must be applied.
 
-- **source** Choose the Ubuntu 18.04 image. 
-- **flavour** Apply the m1.medium compute resource for a small first instance.
+- **Details** Choose an instance name. 
+- **flavour** Apply the gp.small compute resource for a small first instance.
 - **networks** Select Campus Network 01. If you are interested in having an instance that is globally accessible for e.g. hosting a webservice, copying data from another university etc., and hence also at a higher security risk, then select AAU Public.
 - **security groups** Ensure that the default security group we edited earlier is applied (should be as default). 
 - **key-pair** Ensure that the key-pair created earlier is applied (should be as default).
@@ -71,7 +71,7 @@ In the **launch instance** menu you can set settings for the instance. To launch
 
 ### Access the instance
 
-The default way of accessing is via SSH. The default username is **ubuntu** for the Ubuntu 18.04 image we chose. Use the key-pair we applied earlier in the guide as following to access the instance.
+The default way of accessing is via SSH. The default username is **ubuntu** for the Ubuntu 18.04 image we chose. Use the key-pair we generated earlier in the guide as following to access the instance.
 
 On mac/linux open the terminal on windows open PowerShell or Command Prompt
 ```bash
@@ -91,7 +91,7 @@ On some platforms/tools you might receive an error, saying that Permissions are 
 
 #### Mac/Linux
 ```bash
-chmod 600 yourPersonalKey.pem
+chmod 600 yourPublicKey.pem
 ```
 and then try to connect again.
 
