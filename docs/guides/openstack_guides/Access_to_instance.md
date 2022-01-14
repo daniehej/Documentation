@@ -2,32 +2,6 @@
 
 Each instance has an internal fixed cloud IP address, but can also have a floating public IP address. An internal cloud IP addresses is used for communication between instances, and a floating public IP address is used for communication with networks outside the cloud, including the Internet.
 
-## Floating IP
-When you create a new instance, it will automatically be assigned an address on the **internal-shared** network. To be able to access the instance remote, you must assign a public ip address. In OpenStack the public ip's are applied using **Floating IP**.
-
-1. Navigate to the project tab.
-2. Click the **Compute** sub-tab.
-3. Click on **Instances**.
-4. Locate the instance you wish to allocate a floating ip. On the right hand side, in the action column, there is a button with a down arrow at the right. Click the down arrow for more options.
-5. Click the **Associate Floating IP**. This will open a new window.
-6. Click the **+**  by the end of **No floating IP Addresses allocated**. This will open a new window.
-7. Ensure that Pool says **external**, enter a description (optional). Click **Allocate IP**, you will now return to the previous windows.
-8. Ensure that an IP is selected in the **IP Address** dropdown. Ensure that the **Port to be associated** has selected the instance, which you want a floating ip for. Click **Associate**.
-9. Now you will return to the instance overview. In the IP column, you will see that the server now has an ip address for external 130.x.x.x and for the internal network 10.0.x.x. You can now access the server on the external ip.
-
-![Attach_external_IP.gif](../../assets/img/openstack/Attach_external_IP.gif)
-
-### Releasing Floating IP
-
-Due to a limit number of IPs it's good user behaviour to release floating IPs and no to allocate more than needed.
-
-1. Network
-2. Floating IPs
-3. Select the unused floating IP and press **Release Floating IPs**
-
-## Security Groups
-
-
 ### SSH rule
 
 Most images is reached by SSH, which require port 22 open.
