@@ -27,7 +27,7 @@ To create the ubuntu instance, common settings must be sat first. To access the 
 
 The compute cloud configures port access with **Security groups**. Each group can have a number of rules to permit access. Follow the steps to add port 22(for SSH) to the default security group.
 
-1. Navigate to **network**
+1. Navigate to **Network**
 2. Click the sub menu **Security Groups**
 3. Click **Manage Rules** on the default Security group
 4. Add a rule
@@ -42,8 +42,8 @@ The compute cloud authenticates per default instances with a SSH keypair. Follow
 1. Navigate to **Compute**
 2. Click on the sub menu **Key Pairs**
 3. Add new **Key Pair**
-4. Fill out name
-5. Save the public key locally
+4. Fill out name and select SSH Key
+5. Save the public key locally (you will need in later).
 ![Alt Description](../assets/img/openstack/Creat_Key_Pair.gif"Title")
 
 
@@ -53,8 +53,8 @@ To launch the Ubuntu instance navigate to the "launch instance" menu using the w
 
 1. Navigate to the project tab.
 2. Click the **Compute** sub-tab.
-3. Click on **Instances**.
-4. Press **Launch instance** on the right side of the webpage.
+3. Click on **Images**.
+4. Press **Launch** on the right side of the image you wish to Launch.
 
 ![Alt Description](../assets/img/openstack/find_create_instance.gif "Title")
 
