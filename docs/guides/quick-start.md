@@ -110,6 +110,8 @@ If you dont need the instance right now, but maybe sometime soon again, you can 
 5. Select "Shelve instance". After a bit of time, the Status should be "Shelved Offloaded"
 6. When you need the instance again - select "Unshelve instance" under the Actions roll-down.
 
+![Placeholder](../assets/img/openstack/shelve_unshelve.gif){ loading=lazy }
+
 If you are done using your instance, then you can delete it.
 
 1. Navigate to the project tab
