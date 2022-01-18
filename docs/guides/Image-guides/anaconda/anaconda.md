@@ -17,7 +17,7 @@ conda init bash
 
 If you like to access a jupyter notebook on the machine, you need to
 
-1. Add port 8888 as custom rule to a Security Group, [see this guide](guides/openstack_guides/Access_to_instance.md#custom-rule)
+1. Add port 8888 as custom rule to a Security Group, [see this guide](../../openstack_guides/Access_to_instance.md#custom-rule)
 2. Start the service
 
 ```bash
