@@ -1,5 +1,6 @@
 # Pause, shutdown and delete instances
 Instances in the Strato CLAAUDIA Compute cloud can have a range of **States:**
+
 - **Active:** Instance is active, you can connect to it.
 - **Shelved:** Shelving is useful if you have an instance that you are not using, but would like retain in your list of servers. For example, you can stop an instance at the end of a work week, and resume work again at the start of the next week. All associated data and resources are kept; however, anything still in memory is not retained. If a shelved instance is no longer needed, it can also be entirely removed. The shelved state will free allocated resources.
 - **Paused:** In this state, the server state is preserved in RAM, but operations have been stopped and will resume when instructed. This state will keep allocated resources from being used by others.
@@ -20,17 +21,6 @@ The way to release the resources occupied by your instance is to *shelve* the in
 
 This will first shut down the instance nicely, save it to disk and subsequently release its resources. In order to use your instance again at a later point, repeat the above steps and this time select **Unshelve Instance** from the dropdown menu.  
 Although other states such as **Paused**, **Suspended**, and **Shutoff** also make the instance unavailable, shelving an instance is the only approach that actually releases the resources and makes them available to other users and instances.
-
-## Shut down an instance
-
-To shutdown an instance using the Horizon web interface you must be logged in and have a running instance. Navigate to the "Shut Off Instance" menu using the horizon web interface.
-
-1. Navigate to the project tab.
-2. Click the **Compute** sub-tab.
-3. Click on **Instances**.
-4. Mark the checkbox of the instance you wish to shut down.
-5. Press **More Actions** on the right side of the webpage, and select **Shut Off Instance** from the dropdown.
-![Shutdown_instance.gif](../../assets/img/openstack/Shutdown_instance.gif)
 
 ## Delete an instance
 
