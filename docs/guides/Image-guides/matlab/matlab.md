@@ -19,6 +19,7 @@ instance and activate your license for it.
     (remember to change this option if it says for example "Download
     for MacOS"). Save the downloaded file to your local computer and
     note where you save it.
+    
 2.  Copy the downloaded file (probably called
     "matlab\_R2021b\_glnxa64.zip") to your Strato instance.  
     This can be done from the command line (in Linux, MacOS, or Windows). Use the same identity file for logging in as described for SSH access in the [Quick Start guide](../quick-start.md)):
@@ -31,6 +32,7 @@ instance and activate your license for it.
     ```bash
     scp -i yourPersonalKey.pem matlab_R2021b_glnxa64.zip ubuntu@10.92.0.113:/home/ubuntu
     ```
+    
 3.  Log into your Strato instance using SSH:
     
     ```bash
@@ -38,6 +40,7 @@ instance and activate your license for it.
     ```	 
     You should now be able to see your uploaded MATLAB install file, if
     you type `ls` to view the contents of the current directory.
+    
 4.  The following steps should be carried out on your Strato instance
     which you have just logged into using SSH.  
     Install X:
@@ -46,16 +49,19 @@ instance and activate your license for it.
     sudo apt install xorg
     ```	 
     This can take quite some time.
+    
 5.  Enable X forwarding for the root user:
     
     ```bash
     sudo cp ~/.Xauthority ~root/.Xauthority
     ```
+    
 6.  Install the `unzip` command in your instance:
     
     ```bash
     sudo apt install unzip
-	```   
+    ```
+    
 7.  Uncompress the MATLAB installer:
     
     ```bash
@@ -64,15 +70,18 @@ instance and activate your license for it.
     *Note that the name of your MATLAB installer zip file may be
     different, if you downloaded a different version of MATLAB than in
     this example.*
+    
 8.  Run the MATLAB installer:
     
     ```bash
     sudo matlab_install/install
     ```
+    
 9.  Follow the instructions in the installer to log into your MathWorks
     account and activate your license obtained in step 1.  
     You can also select which MATLAB toolboxes you wish to install.  
     Select the default path for installing MATLAB and in the final
     step, select "Begin Install".
+    
 10. You should now be able to run MATLAB from the command line by
     typing `matlab`.
