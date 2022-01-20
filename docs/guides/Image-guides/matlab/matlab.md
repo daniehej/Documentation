@@ -30,12 +30,12 @@ instance and activate your license for it.
     
     ```bash
     scp -i yourPersonalKey.pem matlab_R2021b_glnxa64.zip ubuntu@10.92.0.113:/home/ubuntu
-    ```	   
+    ```
 3.  Log into your Strato instance using SSH:
     
     ```bash
     ssh -X -i [your identity file] ubuntu@[IP address of your Strato instance]
-    ```	   
+    ```	 
     You should now be able to see your uploaded MATLAB install file, if
     you type `ls` to view the contents of the current directory.
 4.  The following steps should be carried out on your Strato instance
@@ -44,13 +44,13 @@ instance and activate your license for it.
     
     ```bash
     sudo apt install xorg
-    ```	   
+    ```	 
     This can take quite some time.
 5.  Enable X forwarding for the root user:
     
     ```bash
     sudo cp ~/.Xauthority ~root/.Xauthority
-	```
+    ```
 6.  Install the `unzip` command in your instance:
     
     ```bash
@@ -60,7 +60,7 @@ instance and activate your license for it.
     
     ```bash
     unzip matlab_R2021b_glnxa64.zip -d matlab_install
-    ```
+    ```  
     *Note that the name of your MATLAB installer zip file may be
     different, if you downloaded a different version of MATLAB than in
     this example.*
@@ -68,7 +68,7 @@ instance and activate your license for it.
     
     ```bash
     sudo matlab_install/install
-	```
+    ```
 9.  Follow the instructions in the installer to log into your MathWorks
     account and activate your license obtained in step 1.  
     You can also select which MATLAB toolboxes you wish to install.  
