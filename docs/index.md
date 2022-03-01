@@ -17,16 +17,13 @@ CLAAUDIA Compute Cloud Strato is a compute cloud hosted at AAU. The cloud is bas
 
 | Flavour Name   |  Type           | VCPUs    | RAM     | Disk |
 |    ---         |  ---            |  ---     | ---     | ---  |
-| gp.small       | General purpose | 4        | 16GB    | 100GB|
-| gp.medium      | General purpose | 8        | 32GB    | 100GB|
-| gp.large       | General purpose | 16       | 64GB    | 100GB| 
 | cpu.small      | CPU focused     | 8        | 16GB    | 100GB|
-| cpu.medium     | CPU focused     | 16       | 32GB    | 100GB|
 | cpu.large      | CPU focused     | 32       | 64GB    | 100GB|
 | cpu.xlarge     | CPU focused     | 64       | 128GB   | 100GB|
 | mem.small      | Memory focused  | 4        | 32GB    | 100GB|
 | mem.medium     | Memory focused  | 8        | 64GB    | 100GB|
 | mem.large      | Memory focused  | 16       | 128GB   | 100GB|
+| mem.xlarge     | Memory focused  | 32       | 256GB   | 100GB|
 | gpu.t4-large   | Nvidia T4 GPU   | 10       | 40GB    | 100GB|
 
 We recommend that you start with one of the smaller instances, and then [**resize**](guides/openstack_guides/resize.md) your instance later if needed. Similar, if you need more space you add [**additional storage**](guides/openstack_guides/attach_volume.md).
