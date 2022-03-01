@@ -2,15 +2,15 @@
 
 # User documentation - CLAAUDIA *New* Compute Cloud Strato
 
-Hello and welcome to the documentation for the CLAAUDIA Cloud. The documentation is targeted at our Strato project. To get valuable feedback from the strato phase CLAAUDIA expects the following of the users
+Hello and welcome to the documentation for the CLAAUDIA Cloud. The documentation is targeted at our Strato project. To get valuable feedback from the Strato phase CLAAUDIA expects the following of the users
 
 * You must **not** use AAU sensitive or GDPR restricted data for now
 * There will **NOT** be made backup of the data you upload to the cloud, so do not delete your own copy. The data is safe in the cloud, as the storage system replicates it. There is just no additional backup, so if you by accident delete it from the cloud, it will be gone, and needs to be re-uploaded.
-* You will have **full ownership** of the instance you create and can therefore install additional software, tweak it or use it as is.
+* You will have **full ownership** of the instance you create and can therefore install additional software, tweak it, or use it as is.
 
-## Important difference from *old* strato
+## Important difference from *old* Strato
 
-* You can not (and should) not create floating IPs. You can choose either to a have a local routed IP (preferred) or a globally routed IP.
+* You cannot (and should) not create floating IPs. You can choose either to a have a locally routed IP (preferred) or a globally routed IP. Please see the Quick start guide further down for details on how.
 
 ## What is CLAAUDIA Compute Cloud Strato
 CLAAUDIA Compute Cloud Strato is a compute cloud hosted at AAU. The cloud is based on OpenStack. A user can launch multiple instances based on different flavors and images. The flavour is the computing resource and the image is the OS+software.
@@ -31,7 +31,7 @@ CLAAUDIA Compute Cloud Strato is a compute cloud hosted at AAU. The cloud is bas
 
 We recommend that you start with one of the smaller instances, and then [**resize**](guides/openstack_guides/resize.md) your instance later if needed. Similar, if you need more space you add [**additional storage**](guides/openstack_guides/attach_volume.md).
 
-When you start you will receive the following quota (theres more, but likely the most important):
+When you start you will receive the following quota (there are more detail, but likely the most important):
 
 | Type           |  Limit          | 
 |    ---         |  ---            | 
@@ -41,11 +41,11 @@ When you start you will receive the following quota (theres more, but likely the
 | Volumes        | 10              | 
 | Volume storage | 10TB            | 
 
-This quota will not allow you to create some of the larger instances in strato-new. If you need to have say more CPUs, please write an email to [support@its.aau.dk](mailto:support@its.aau.dk)
-. Students should have their supervisors approval (either let the supervisor write to [support@its.aau.dk](mailto:support@its.aau.dk) or let them acknowledge into an existing case).
+This quota will not allow you to create some of the larger instances in Strato-new. If you need to have say more CPUs, please write an email to [support@its.aau.dk](mailto:support@its.aau.dk)
+. Students should have their supervisors' approval (either let the supervisor write to [support@its.aau.dk](mailto:support@its.aau.dk) or let them acknowledge into an existing case).
 
 ## Quick-start - Your first instance
-Follow the guide to get your first Ubuntu instance up and running in minutes! The guide will take you through the steps of logging in to the cloud, setting up an Ubuntu instance and accessing the instance with SSH.
+Follow the guide to get your first Ubuntu instance up and running in minutes! The guide will take you through the steps of logging into the cloud, setting up an Ubuntu instance and accessing the instance with SSH.
 
 [**Quick-start - Your first instance**](guides/quick-start.md)
 
@@ -71,7 +71,7 @@ In addition to the pre-built Ubuntu images, we provide some instructions here fo
 Learn about more advanced Openstack features E.g. deleting instances, releasing IPs or using the openstack CLI.
 
 - [**CLAAUDIA Compute Cloud Strato glossary**](cloud_glossary.md)
-- [**Copy data from the old strato to new strato**](guides/openstack_guides/Move_To_strato.md)
+- [**Copy data from the old Strato to new Strato**](guides/openstack_guides/Move_To_strato.md)
 - [**Openstack CLI**](guides/openstack_guides/openstack_CLI.md)
 - [**Stop, pause & delete instances**](guides/openstack_guides/Pause_shutdown_delete_instances.md)
 - [**Custom volume size**](guides/openstack_guides/diffrent_volume_size.md)

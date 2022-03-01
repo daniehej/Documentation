@@ -62,7 +62,7 @@ In the **launch instance** menu you can set settings for the instance. To launch
 
 - **Details** Choose an instance name. 
 - **flavour** Apply the gp.small compute resource for a small first instance.
-- **networks** Select Campus Network 01. If you are interested in having an instance that is globally accessible for e.g. hosting a webservice, copying data from another university etc., and hence also at a higher security risk, then select AAU Public.
+- **networks** Select "Campus Network 01". If you are interested in having an instance that is globally accessible for e.g. hosting a webservice, copying data from another university etc., and hence also at a higher security risk, then select "AAU Public". *Only associate one of the two networks to your instance. If you associate both; it will not work without considerable additional effort not documented here.*
 - **security groups** Ensure that the default security group we edited earlier is applied (should be as default). 
 - **key-pair** Ensure that the key-pair created earlier is applied (should be as default).
 
